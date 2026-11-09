@@ -52,12 +52,26 @@ python3.12 -m venv .venv
 
 Runs overwrite same-named generated results. Raw data are preserved and checksummed. Convergence warnings stop training; both 186-fit runs completed successfully.
 
+## Checkpoint figure
+
+![Cost comparison at a 50:1 loss ratio](baseline.png)
+
+`baseline.png` compares unweighted and balanced-class-weight logistic regression at threshold 0.5 and at thresholds selected from inner-CV predictions. Points show outer-fold mean cost per 1,000 transactions; bars show conditional 95% paired-bootstrap intervals. It is an early figure at one fixed cost ratio, not the planned cost-versus-ratio sensitivity curve.
+
+To recreate it, open `notebooks/03_baseline_figure.ipynb`, select the project `.venv` kernel, and choose **Run All**. The notebook reads the saved comparison summary and calls `src/plot_baseline.py`; it does not train models or access test data. Alternatively:
+
+```bash
+.venv/bin/python src/plot_baseline.py
+```
+
+The PNG is saved in the project root and can accompany `baseline.txt` in the checkpoint submission.
+
 ## Project files and next steps
 
 - `config/`: fixed experiment and uncertainty protocols.
 - `src/`: training, paired uncertainty calculations, and independent verification.
 - `reports/baseline/`: baseline results; `uncertainty/` contains its error bars.
 - `reports/class_weight/`: control results; `comparison/` contains paired differences.
-- `baseline.txt`: checkpoint text; Code is intentionally blank pending an accessible repository/notebook link. Add that link before submission.
+- `baseline.txt`: checkpoint submission text. Confirm that Code contains an accessible repository/notebook URL before submission.
 
 Before the 16 November draft, Jacob will assess cost sensitivity and interpretation; Zhihao will extend fold-contained resampling, threshold comparisons, and gradient boosting. The final test set stays sealed until final evaluation.
