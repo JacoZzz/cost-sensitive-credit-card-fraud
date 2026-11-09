@@ -1,0 +1,203 @@
+{
+  "status": "SUCCESS",
+  "evaluation": "nested five-fold CV on development data only",
+  "sealed_test_accessed": false,
+  "outer_folds": [
+    {
+      "outer_fold": 1,
+      "train_rows": 176424,
+      "validation_rows": 44106,
+      "validation_frauds": 75,
+      "selected_C": 0.01,
+      "inner_mean_AP": 0.7265663664331642,
+      "AP": 0.6858603070592661,
+      "solver_iterations": 28,
+      "default_threshold": 0.5,
+      "default_TN": 42949,
+      "default_FP": 1082,
+      "default_FN": 9,
+      "default_TP": 66,
+      "default_precision": 0.05749128919860627,
+      "default_recall": 0.88,
+      "default_F1": 0.10793131643499591,
+      "default_mean_cost": 0.03473450324218927,
+      "tuned_threshold": 0.9834269253591098,
+      "tuned_TN": 43979,
+      "tuned_FP": 52,
+      "tuned_FN": 14,
+      "tuned_TP": 61,
+      "tuned_precision": 0.5398230088495575,
+      "tuned_recall": 0.8133333333333334,
+      "tuned_F1": 0.648936170212766,
+      "tuned_mean_cost": 0.017049834489638597
+    },
+    {
+      "outer_fold": 2,
+      "train_rows": 176424,
+      "validation_rows": 44106,
+      "validation_frauds": 75,
+      "selected_C": 0.1,
+      "inner_mean_AP": 0.7084283747476883,
+      "AP": 0.7644529671434676,
+      "solver_iterations": 30,
+      "default_threshold": 0.5,
+      "default_TN": 42911,
+      "default_FP": 1120,
+      "default_FN": 5,
+      "default_TP": 70,
+      "default_precision": 0.058823529411764705,
+      "default_recall": 0.9333333333333333,
+      "default_F1": 0.11067193675889328,
+      "default_mean_cost": 0.031061533578197978,
+      "tuned_threshold": 0.9862690023262765,
+      "tuned_TN": 43970,
+      "tuned_FP": 61,
+      "tuned_FN": 9,
+      "tuned_TP": 66,
+      "tuned_precision": 0.5196850393700787,
+      "tuned_recall": 0.88,
+      "tuned_F1": 0.6534653465346535,
+      "tuned_mean_cost": 0.011585725298145376
+    },
+    {
+      "outer_fold": 3,
+      "train_rows": 176424,
+      "validation_rows": 44106,
+      "validation_frauds": 76,
+      "selected_C": 100.0,
+      "inner_mean_AP": 0.7240689144172687,
+      "AP": 0.6371941753562609,
+      "solver_iterations": 30,
+      "default_threshold": 0.5,
+      "default_TN": 43113,
+      "default_FP": 917,
+      "default_FN": 7,
+      "default_TP": 69,
+      "default_precision": 0.06997971602434078,
+      "default_recall": 0.9078947368421053,
+      "default_F1": 0.12994350282485875,
+      "default_mean_cost": 0.028726250396771413,
+      "tuned_threshold": 0.961521217799823,
+      "tuned_TN": 43959,
+      "tuned_FP": 71,
+      "tuned_FN": 16,
+      "tuned_TP": 60,
+      "tuned_precision": 0.4580152671755725,
+      "tuned_recall": 0.7894736842105263,
+      "tuned_F1": 0.5797101449275363,
+      "tuned_mean_cost": 0.01974788010701492
+    },
+    {
+      "outer_fold": 4,
+      "train_rows": 176424,
+      "validation_rows": 44106,
+      "validation_frauds": 76,
+      "selected_C": 1.0,
+      "inner_mean_AP": 0.7242270050166869,
+      "AP": 0.6934411689973846,
+      "solver_iterations": 35,
+      "default_threshold": 0.5,
+      "default_TN": 42946,
+      "default_FP": 1084,
+      "default_FN": 8,
+      "default_TP": 68,
+      "default_precision": 0.059027777777777776,
+      "default_recall": 0.8947368421052632,
+      "default_F1": 0.11074918566775244,
+      "default_mean_cost": 0.03364621593434,
+      "tuned_threshold": 0.9468290246471458,
+      "tuned_TN": 43928,
+      "tuned_FP": 102,
+      "tuned_FN": 11,
+      "tuned_TP": 65,
+      "tuned_precision": 0.38922155688622756,
+      "tuned_recall": 0.8552631578947368,
+      "tuned_F1": 0.5349794238683128,
+      "tuned_mean_cost": 0.014782569264952614
+    },
+    {
+      "outer_fold": 5,
+      "train_rows": 176424,
+      "validation_rows": 44106,
+      "validation_frauds": 76,
+      "selected_C": 1.0,
+      "inner_mean_AP": 0.7229623064202889,
+      "AP": 0.7841510938988884,
+      "solver_iterations": 37,
+      "default_threshold": 0.5,
+      "default_TN": 42793,
+      "default_FP": 1237,
+      "default_FN": 7,
+      "default_TP": 69,
+      "default_precision": 0.052833078101071976,
+      "default_recall": 0.9078947368421053,
+      "default_F1": 0.09985528219971057,
+      "default_mean_cost": 0.03598149911576656,
+      "tuned_threshold": 0.9752079931886214,
+      "tuned_TN": 43968,
+      "tuned_FP": 62,
+      "tuned_FN": 10,
+      "tuned_TP": 66,
+      "tuned_precision": 0.515625,
+      "tuned_recall": 0.868421052631579,
+      "tuned_F1": 0.6470588235294118,
+      "tuned_mean_cost": 0.01274203056273523
+    }
+  ],
+  "metrics": {
+    "AP": {
+      "outer_fold_mean": 0.7130199424910535,
+      "outer_fold_sample_SD": 0.06036455469765338
+    },
+    "default_mean_cost": {
+      "outer_fold_mean": 0.032830000453453044,
+      "outer_fold_sample_SD": 0.0029237613624702855
+    },
+    "tuned_mean_cost": {
+      "outer_fold_mean": 0.01518160794449735,
+      "outer_fold_sample_SD": 0.0032932602980126962
+    },
+    "default_precision": {
+      "outer_fold_mean": 0.0596310781027123,
+      "outer_fold_sample_SD": 0.006302815116670513
+    },
+    "default_recall": {
+      "outer_fold_mean": 0.9047719298245613,
+      "outer_fold_sample_SD": 0.019682537377682902
+    },
+    "tuned_precision": {
+      "outer_fold_mean": 0.48447397445628726,
+      "outer_fold_sample_SD": 0.06133271422528774
+    },
+    "tuned_recall": {
+      "outer_fold_mean": 0.8412982456140352,
+      "outer_fold_sample_SD": 0.038393725762172294
+    }
+  },
+  "pooled_outer_oof_AP": 0.7108237957911949,
+  "pooled_confusion": {
+    "default": {
+      "TN": 214712,
+      "FP": 5440,
+      "FN": 36,
+      "TP": 342
+    },
+    "tuned": {
+      "TN": 219804,
+      "FP": 348,
+      "FN": 60,
+      "TP": 318
+    }
+  },
+  "always_negative_cost_reference": 0.08570262549313018,
+  "full_development_selection": {
+    "C": 100.0,
+    "inner_mean_AP": 0.7187517956524272,
+    "threshold": 0.9680014101059571,
+    "inner_threshold_selection_cost": 0.015168004353149231
+  },
+  "total_pipeline_fits": 186,
+  "convergence_failures": 0,
+  "runtime_seconds": 67.04792558262125,
+  "error_bar_status": "not_yet_computed; fold SD is descriptive spread, not a confidence interval"
+}

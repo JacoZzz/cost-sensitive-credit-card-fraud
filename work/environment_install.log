@@ -1,0 +1,224 @@
+WARNING: The directory '/Users/jacobzzzzz/Library/Caches/pip' or its parent directory is not owned or is not writable by the current user. The cache has been disabled. Check the permissions and owner of that directory. If executing pip with sudo, you should use sudo's -H flag.
+Collecting appnope==1.0.0 (from -r /Users/jacobzzzzz/Desktop/ESE5420 SDS/Final Project/requirements-lock.txt (line 1))
+  Obtaining dependency information for appnope==1.0.0 from https://files.pythonhosted.org/packages/46/c7/6b687cb0f83d2a51017d47953f2ee430ffad6fec2a8ebc964e0718a33eb1/appnope-1.0.0-py3-none-any.whl.metadata
+  Downloading appnope-1.0.0-py3-none-any.whl.metadata (982 bytes)
+Collecting asttokens==3.0.2 (from -r /Users/jacobzzzzz/Desktop/ESE5420 SDS/Final Project/requirements-lock.txt (line 2))
+  Obtaining dependency information for asttokens==3.0.2 from https://files.pythonhosted.org/packages/d4/2b/04b8a15f3a1c77bc79ddf5c73875327f34b4fa75982df2b76e45e402d364/asttokens-3.0.2-py3-none-any.whl.metadata
+  Downloading asttokens-3.0.2-py3-none-any.whl.metadata (5.7 kB)
+Collecting attrs==26.1.0 (from -r /Users/jacobzzzzz/Desktop/ESE5420 SDS/Final Project/requirements-lock.txt (line 3))
+  Obtaining dependency information for attrs==26.1.0 from https://files.pythonhosted.org/packages/64/b4/17d4b0b2a2dc85a6df63d1157e028ed19f90d4cd97c36717afef2bc2f395/attrs-26.1.0-py3-none-any.whl.metadata
+  Downloading attrs-26.1.0-py3-none-any.whl.metadata (8.8 kB)
+Collecting certifi==2026.10.23 (from -r /Users/jacobzzzzz/Desktop/ESE5420 SDS/Final Project/requirements-lock.txt (line 4))
+  Obtaining dependency information for certifi==2026.10.23 from https://files.pythonhosted.org/packages/32/d1/a3652fe2c19134d0d15922177821d863cbd7e842d53a21bbe7e8e3a1b5ac/certifi-2026.10.23-py3-none-any.whl.metadata
+  Downloading certifi-2026.10.23-py3-none-any.whl.metadata (2.5 kB)
+Collecting cloudpickle==3.1.2 (from -r /Users/jacobzzzzz/Desktop/ESE5420 SDS/Final Project/requirements-lock.txt (line 5))
+  Obtaining dependency information for cloudpickle==3.1.2 from https://files.pythonhosted.org/packages/88/39/799be3f2f0f38cc727ee3b4f1445fe6d5e4133064ec2e4115069418a5bb6/cloudpickle-3.1.2-py3-none-any.whl.metadata
+  Downloading cloudpickle-3.1.2-py3-none-any.whl.metadata (7.1 kB)
+Collecting comm==0.2.3 (from -r /Users/jacobzzzzz/Desktop/ESE5420 SDS/Final Project/requirements-lock.txt (line 6))
+  Obtaining dependency information for comm==0.2.3 from https://files.pythonhosted.org/packages/60/97/891a0971e1e4a8c5d2b20bbe0e524dc04548d2307fee33cdeba148fd4fc7/comm-0.2.3-py3-none-any.whl.metadata
+  Downloading comm-0.2.3-py3-none-any.whl.metadata (3.7 kB)
+Collecting debugpy==1.8.22 (from -r /Users/jacobzzzzz/Desktop/ESE5420 SDS/Final Project/requirements-lock.txt (line 7))
+  Obtaining dependency information for debugpy==1.8.22 from https://files.pythonhosted.org/packages/73/21/5c7f5c66eaeee57c9dadb0bbff22efddc8d99cdbd3d036c806175f1828cc/debugpy-1.8.22-cp312-cp312-macosx_15_0_universal2.whl.metadata
+  Downloading debugpy-1.8.22-cp312-cp312-macosx_15_0_universal2.whl.metadata (1.4 kB)
+Collecting executing==2.3.0 (from -r /Users/jacobzzzzz/Desktop/ESE5420 SDS/Final Project/requirements-lock.txt (line 8))
+  Obtaining dependency information for executing==2.3.0 from https://files.pythonhosted.org/packages/4d/dd/8bc67e7d5ffc1d88aa5af511189dfb76dc4e1e5b808fab186146ef2663e5/executing-2.3.0-py3-none-any.whl.metadata
+  Downloading executing-2.3.0-py3-none-any.whl.metadata (9.1 kB)
+Collecting fastjsonschema==2.22.3 (from -r /Users/jacobzzzzz/Desktop/ESE5420 SDS/Final Project/requirements-lock.txt (line 9))
+  Obtaining dependency information for fastjsonschema==2.22.3 from https://files.pythonhosted.org/packages/d7/0d/6caab33488dc9d26440c24221fa610c7c8b83c30715ab45d31f0e004308e/fastjsonschema-2.22.3-py3-none-any.whl.metadata
+  Downloading fastjsonschema-2.22.3-py3-none-any.whl.metadata (2.1 kB)
+Collecting ipykernel==7.4.0 (from -r /Users/jacobzzzzz/Desktop/ESE5420 SDS/Final Project/requirements-lock.txt (line 10))
+  Obtaining dependency information for ipykernel==7.4.0 from https://files.pythonhosted.org/packages/a5/f8/8b5c10c7f36ab5a3b5c4703669e5b14e44e98782b58e535dd30670e8799a/ipykernel-7.4.0-py3-none-any.whl.metadata
+  Downloading ipykernel-7.4.0-py3-none-any.whl.metadata (3.4 kB)
+Collecting ipython==9.18.1 (from -r /Users/jacobzzzzz/Desktop/ESE5420 SDS/Final Project/requirements-lock.txt (line 11))
+  Obtaining dependency information for ipython==9.18.1 from https://files.pythonhosted.org/packages/bb/1c/91da4a1c541b75e97eb99d09c6a9b0534de55bb4a466669d1170e39b915c/ipython-9.18.1-py3-none-any.whl.metadata
+  Downloading ipython-9.18.1-py3-none-any.whl.metadata (4.6 kB)
+Collecting ipython_pygments_lexers==1.1.1 (from -r /Users/jacobzzzzz/Desktop/ESE5420 SDS/Final Project/requirements-lock.txt (line 12))
+  Obtaining dependency information for ipython_pygments_lexers==1.1.1 from https://files.pythonhosted.org/packages/d9/33/1f075bf72b0b747cb3288d011319aaf64083cf2efef8354174e3ed4540e2/ipython_pygments_lexers-1.1.1-py3-none-any.whl.metadata
+  Downloading ipython_pygments_lexers-1.1.1-py3-none-any.whl.metadata (1.1 kB)
+Collecting jedi==0.20.1 (from -r /Users/jacobzzzzz/Desktop/ESE5420 SDS/Final Project/requirements-lock.txt (line 13))
+  Obtaining dependency information for jedi==0.20.1 from https://files.pythonhosted.org/packages/be/c7/71eb0d51cdcbb63b857c931aa4e9218b078b5d9f8ecd383b234f28fe7b0f/jedi-0.20.1-py2.py3-none-any.whl.metadata
+  Downloading jedi-0.20.1-py2.py3-none-any.whl.metadata (23 kB)
+Collecting joblib==1.6.0 (from -r /Users/jacobzzzzz/Desktop/ESE5420 SDS/Final Project/requirements-lock.txt (line 14))
+  Obtaining dependency information for joblib==1.6.0 from https://files.pythonhosted.org/packages/18/53/84099323c2ec4be98d935f63c033ac4151ee83836ca1050ede3b3aadf155/joblib-1.6.0-py3-none-any.whl.metadata
+  Downloading joblib-1.6.0-py3-none-any.whl.metadata (6.5 kB)
+Collecting jsonschema==4.26.0 (from -r /Users/jacobzzzzz/Desktop/ESE5420 SDS/Final Project/requirements-lock.txt (line 15))
+  Obtaining dependency information for jsonschema==4.26.0 from https://files.pythonhosted.org/packages/69/90/f63fb5873511e014207a475e2bb4e8b2e570d655b00ac19a9a0ca0a385ee/jsonschema-4.26.0-py3-none-any.whl.metadata
+  Downloading jsonschema-4.26.0-py3-none-any.whl.metadata (7.6 kB)
+Collecting jsonschema-specifications==2025.9.1 (from -r /Users/jacobzzzzz/Desktop/ESE5420 SDS/Final Project/requirements-lock.txt (line 16))
+  Obtaining dependency information for jsonschema-specifications==2025.9.1 from https://files.pythonhosted.org/packages/41/45/1a4ed80516f02155c51f51e8cedb3c1902296743db0bbc66608a0db2814f/jsonschema_specifications-2025.9.1-py3-none-any.whl.metadata
+  Downloading jsonschema_specifications-2025.9.1-py3-none-any.whl.metadata (2.9 kB)
+Collecting jupyter_client==8.10.0 (from -r /Users/jacobzzzzz/Desktop/ESE5420 SDS/Final Project/requirements-lock.txt (line 17))
+  Obtaining dependency information for jupyter_client==8.10.0 from https://files.pythonhosted.org/packages/0f/88/7c548de1f6c2ade7c931a3282da73f9274fa6a1531091be682f89c85efb9/jupyter_client-8.10.0-py3-none-any.whl.metadata
+  Downloading jupyter_client-8.10.0-py3-none-any.whl.metadata (8.5 kB)
+Collecting jupyter_core==5.9.1 (from -r /Users/jacobzzzzz/Desktop/ESE5420 SDS/Final Project/requirements-lock.txt (line 18))
+  Obtaining dependency information for jupyter_core==5.9.1 from https://files.pythonhosted.org/packages/e7/e7/80988e32bf6f73919a113473a604f5a8f09094de312b9d52b79c2df7612b/jupyter_core-5.9.1-py3-none-any.whl.metadata
+  Downloading jupyter_core-5.9.1-py3-none-any.whl.metadata (1.5 kB)
+Collecting matplotlib-inline==0.2.2 (from -r /Users/jacobzzzzz/Desktop/ESE5420 SDS/Final Project/requirements-lock.txt (line 19))
+  Obtaining dependency information for matplotlib-inline==0.2.2 from https://files.pythonhosted.org/packages/41/09/5b161152e2d90f7b87f781c2e1267494aef9c32498df793f73ad0a0a494a/matplotlib_inline-0.2.2-py3-none-any.whl.metadata
+  Downloading matplotlib_inline-0.2.2-py3-none-any.whl.metadata (2.4 kB)
+Collecting narwhals==2.28.0 (from -r /Users/jacobzzzzz/Desktop/ESE5420 SDS/Final Project/requirements-lock.txt (line 20))
+  Obtaining dependency information for narwhals==2.28.0 from https://files.pythonhosted.org/packages/cf/82/8ef9c7e0f50493307a49c09cfa7f00c5a778b6d1921f7b2dabe1d3a5809e/narwhals-2.28.0-py3-none-any.whl.metadata
+  Downloading narwhals-2.28.0-py3-none-any.whl.metadata (15 kB)
+Collecting nbclient==0.11.0 (from -r /Users/jacobzzzzz/Desktop/ESE5420 SDS/Final Project/requirements-lock.txt (line 21))
+  Obtaining dependency information for nbclient==0.11.0 from https://files.pythonhosted.org/packages/36/c9/94d73e5a01c5b926c3fa2496e97d7a8dc28ed5a77c0b2ed712f1a62e6694/nbclient-0.11.0-py3-none-any.whl.metadata
+  Downloading nbclient-0.11.0-py3-none-any.whl.metadata (7.3 kB)
+Collecting nbformat==5.11.1 (from -r /Users/jacobzzzzz/Desktop/ESE5420 SDS/Final Project/requirements-lock.txt (line 22))
+  Obtaining dependency information for nbformat==5.11.1 from https://files.pythonhosted.org/packages/1a/69/ee613f74085ca7103f79cd08d579c4f3177d1d26e5d3d9528d2d6536a707/nbformat-5.11.1-py3-none-any.whl.metadata
+  Downloading nbformat-5.11.1-py3-none-any.whl.metadata (3.7 kB)
+Collecting nest-asyncio2==1.7.4 (from -r /Users/jacobzzzzz/Desktop/ESE5420 SDS/Final Project/requirements-lock.txt (line 23))
+  Obtaining dependency information for nest-asyncio2==1.7.4 from https://files.pythonhosted.org/packages/09/ed/559d2915dce85794bc0c36064043da170da50cd98746dcbddd85d5932017/nest_asyncio2-1.7.4-py3-none-any.whl.metadata
+  Downloading nest_asyncio2-1.7.4-py3-none-any.whl.metadata (7.0 kB)
+Collecting numpy==2.5.4 (from -r /Users/jacobzzzzz/Desktop/ESE5420 SDS/Final Project/requirements-lock.txt (line 24))
+  Obtaining dependency information for numpy==2.5.4 from https://files.pythonhosted.org/packages/31/2f/5ea3570fcb8ccd0882bea99436a513b2c85dad8f774a2057849130a8fb99/numpy-2.5.4-cp312-cp312-macosx_14_0_arm64.whl.metadata
+  Downloading numpy-2.5.4-cp312-cp312-macosx_14_0_arm64.whl.metadata (6.6 kB)
+Collecting packaging==26.3 (from -r /Users/jacobzzzzz/Desktop/ESE5420 SDS/Final Project/requirements-lock.txt (line 25))
+  Obtaining dependency information for packaging==26.3 from https://files.pythonhosted.org/packages/63/34/ba1c580383c9eada3711951fef0795c80b829a078d72188184bcab9dd527/packaging-26.3-py3-none-any.whl.metadata
+  Downloading packaging-26.3-py3-none-any.whl.metadata (3.5 kB)
+Collecting pandas==3.1.1 (from -r /Users/jacobzzzzz/Desktop/ESE5420 SDS/Final Project/requirements-lock.txt (line 26))
+  Obtaining dependency information for pandas==3.1.1 from https://files.pythonhosted.org/packages/f8/e2/dbcb8b3639358f49a723cbe7e9e505be378a981b5e5dbc403bca978b368a/pandas-3.1.1-cp312-cp312-macosx_11_0_arm64.whl.metadata
+  Downloading pandas-3.1.1-cp312-cp312-macosx_11_0_arm64.whl.metadata (16 kB)
+Collecting parso==0.8.7 (from -r /Users/jacobzzzzz/Desktop/ESE5420 SDS/Final Project/requirements-lock.txt (line 27))
+  Obtaining dependency information for parso==0.8.7 from https://files.pythonhosted.org/packages/99/5d/8268b644392ee874ee82a635cd0df1773de230bde356c38de28e298392cc/parso-0.8.7-py2.py3-none-any.whl.metadata
+  Downloading parso-0.8.7-py2.py3-none-any.whl.metadata (8.2 kB)
+Collecting pexpect==4.9.0 (from -r /Users/jacobzzzzz/Desktop/ESE5420 SDS/Final Project/requirements-lock.txt (line 28))
+  Obtaining dependency information for pexpect==4.9.0 from https://files.pythonhosted.org/packages/9e/c3/059298687310d527a58bb01f3b1965787ee3b40dce76752eda8b44e9a2c5/pexpect-4.9.0-py2.py3-none-any.whl.metadata
+  Downloading pexpect-4.9.0-py2.py3-none-any.whl.metadata (2.5 kB)
+Collecting platformdirs==4.14.5 (from -r /Users/jacobzzzzz/Desktop/ESE5420 SDS/Final Project/requirements-lock.txt (line 29))
+  Obtaining dependency information for platformdirs==4.14.5 from https://files.pythonhosted.org/packages/7c/ae/ecbbbfd0e4343a6a521d49b3c8656fb4643dee2a4f6eaf941cf3280391a8/platformdirs-4.14.5-py3-none-any.whl.metadata
+  Downloading platformdirs-4.14.5-py3-none-any.whl.metadata (5.7 kB)
+Collecting prompt_toolkit==3.0.53 (from -r /Users/jacobzzzzz/Desktop/ESE5420 SDS/Final Project/requirements-lock.txt (line 30))
+  Obtaining dependency information for prompt_toolkit==3.0.53 from https://files.pythonhosted.org/packages/54/6f/84908cad2d6aa5144abcf7b42709fe4fdb459bc640ec7ac5786e7693dabc/prompt_toolkit-3.0.53-py3-none-any.whl.metadata
+  Downloading prompt_toolkit-3.0.53-py3-none-any.whl.metadata (6.4 kB)
+Collecting psutil==7.2.2 (from -r /Users/jacobzzzzz/Desktop/ESE5420 SDS/Final Project/requirements-lock.txt (line 31))
+  Obtaining dependency information for psutil==7.2.2 from https://files.pythonhosted.org/packages/80/c4/f5af4c1ca8c1eeb2e92ccca14ce8effdeec651d5ab6053c589b074eda6e1/psutil-7.2.2-cp36-abi3-macosx_11_0_arm64.whl.metadata
+  Downloading psutil-7.2.2-cp36-abi3-macosx_11_0_arm64.whl.metadata (22 kB)
+Collecting ptyprocess==0.7.0 (from -r /Users/jacobzzzzz/Desktop/ESE5420 SDS/Final Project/requirements-lock.txt (line 32))
+  Obtaining dependency information for ptyprocess==0.7.0 from https://files.pythonhosted.org/packages/22/a6/858897256d0deac81a172289110f31629fc4cee19b6f01283303e18c8db3/ptyprocess-0.7.0-py2.py3-none-any.whl.metadata
+  Downloading ptyprocess-0.7.0-py2.py3-none-any.whl.metadata (1.3 kB)
+Collecting pure_eval==0.2.4 (from -r /Users/jacobzzzzz/Desktop/ESE5420 SDS/Final Project/requirements-lock.txt (line 33))
+  Obtaining dependency information for pure_eval==0.2.4 from https://files.pythonhosted.org/packages/6d/18/83376915176eb058cb86470eb7396388a13350b09a8f233a79303bbcbc5b/pure_eval-0.2.4-py3-none-any.whl.metadata
+  Downloading pure_eval-0.2.4-py3-none-any.whl.metadata (6.4 kB)
+Collecting Pygments==2.21.0 (from -r /Users/jacobzzzzz/Desktop/ESE5420 SDS/Final Project/requirements-lock.txt (line 34))
+  Obtaining dependency information for Pygments==2.21.0 from https://files.pythonhosted.org/packages/71/46/17f022dd3e953bf20a04a028a21ec746d942f8d2af30fa0f124fa0e6a684/pygments-2.21.0-py3-none-any.whl.metadata
+  Downloading pygments-2.21.0-py3-none-any.whl.metadata (2.5 kB)
+Collecting python-dateutil==4.0.0 (from -r /Users/jacobzzzzz/Desktop/ESE5420 SDS/Final Project/requirements-lock.txt (line 35))
+  Obtaining dependency information for python-dateutil==4.0.0 from https://files.pythonhosted.org/packages/2f/a9/52b89563d154433d79b51ed1eb4842bf7334cb2696891a7fe135618853d7/python_dateutil-4.0.0-py3-none-any.whl.metadata
+  Downloading python_dateutil-4.0.0-py3-none-any.whl.metadata (7.3 kB)
+Collecting pyzmq==27.3.0 (from -r /Users/jacobzzzzz/Desktop/ESE5420 SDS/Final Project/requirements-lock.txt (line 36))
+  Obtaining dependency information for pyzmq==27.3.0 from https://files.pythonhosted.org/packages/b5/9e/6663ccc8c1af4e7db85de65921560a8058ad4ad4c40ebc49af4b1164f01a/pyzmq-27.3.0-cp312-abi3-macosx_10_15_universal2.whl.metadata
+  Downloading pyzmq-27.3.0-cp312-abi3-macosx_10_15_universal2.whl.metadata (3.8 kB)
+Collecting referencing==0.37.0 (from -r /Users/jacobzzzzz/Desktop/ESE5420 SDS/Final Project/requirements-lock.txt (line 37))
+  Obtaining dependency information for referencing==0.37.0 from https://files.pythonhosted.org/packages/2c/58/ca301544e1fa93ed4f80d724bf5b194f6e4b945841c5bfd555878eea9fcb/referencing-0.37.0-py3-none-any.whl.metadata
+  Downloading referencing-0.37.0-py3-none-any.whl.metadata (2.8 kB)
+Collecting rpds-py==2026.9.1 (from -r /Users/jacobzzzzz/Desktop/ESE5420 SDS/Final Project/requirements-lock.txt (line 38))
+  Obtaining dependency information for rpds-py==2026.9.1 from https://files.pythonhosted.org/packages/90/81/ac6a0d064982251856ce009c9e1dd51a34110b3c055aa7d1aad18b4899a3/rpds_py-2026.9.1-cp312-cp312-macosx_11_0_arm64.whl.metadata
+  Downloading rpds_py-2026.9.1-cp312-cp312-macosx_11_0_arm64.whl.metadata (4.1 kB)
+Collecting scikit-learn==1.9.1 (from -r /Users/jacobzzzzz/Desktop/ESE5420 SDS/Final Project/requirements-lock.txt (line 39))
+  Obtaining dependency information for scikit-learn==1.9.1 from https://files.pythonhosted.org/packages/60/ea/57e57539ce175d774fc291ed091b0a6d756854b92cd92554c6bb4d0ae498/scikit_learn-1.9.1-cp312-cp312-macosx_12_0_arm64.whl.metadata
+  Downloading scikit_learn-1.9.1-cp312-cp312-macosx_12_0_arm64.whl.metadata (9.3 kB)
+Collecting scipy==1.18.1 (from -r /Users/jacobzzzzz/Desktop/ESE5420 SDS/Final Project/requirements-lock.txt (line 40))
+  Obtaining dependency information for scipy==1.18.1 from https://files.pythonhosted.org/packages/a5/f6/a5b82f8abbe14d134691b8b903696f701d25a081353a29dc655c364d9e62/scipy-1.18.1-cp312-cp312-macosx_14_0_arm64.whl.metadata
+  Downloading scipy-1.18.1-cp312-cp312-macosx_14_0_arm64.whl.metadata (62 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 62.4/62.4 kB 6.6 MB/s eta 0:00:00
+Collecting stack-data==0.6.3 (from -r /Users/jacobzzzzz/Desktop/ESE5420 SDS/Final Project/requirements-lock.txt (line 41))
+  Obtaining dependency information for stack-data==0.6.3 from https://files.pythonhosted.org/packages/f1/7b/ce1eafaf1a76852e2ec9b22edecf1daa58175c090266e9f6c64afcd81d91/stack_data-0.6.3-py3-none-any.whl.metadata
+  Downloading stack_data-0.6.3-py3-none-any.whl.metadata (18 kB)
+Collecting threadpoolctl==3.8.0 (from -r /Users/jacobzzzzz/Desktop/ESE5420 SDS/Final Project/requirements-lock.txt (line 42))
+  Obtaining dependency information for threadpoolctl==3.8.0 from https://files.pythonhosted.org/packages/54/1b/831f2de4840a25db1dd7b1afea433ccafe6bb10aca07e13264f2079462d0/threadpoolctl-3.8.0-py3-none-any.whl.metadata
+  Downloading threadpoolctl-3.8.0-py3-none-any.whl.metadata (29 kB)
+Collecting tornado==6.6 (from -r /Users/jacobzzzzz/Desktop/ESE5420 SDS/Final Project/requirements-lock.txt (line 43))
+  Obtaining dependency information for tornado==6.6 from https://files.pythonhosted.org/packages/df/f5/d3e6f76b945f9812842db742d0708a3b6287e850e81be3ca10e290c103c6/tornado-6.6-cp311-abi3-macosx_10_9_universal2.whl.metadata
+  Downloading tornado-6.6-cp311-abi3-macosx_10_9_universal2.whl.metadata (2.6 kB)
+Collecting traitlets==5.16.1 (from -r /Users/jacobzzzzz/Desktop/ESE5420 SDS/Final Project/requirements-lock.txt (line 44))
+  Obtaining dependency information for traitlets==5.16.1 from https://files.pythonhosted.org/packages/ad/66/0d785f0bc5e4315a96c989bb476d0fc07ea4f85132550c7b156ca2035d52/traitlets-5.16.1-py3-none-any.whl.metadata
+  Downloading traitlets-5.16.1-py3-none-any.whl.metadata (10 kB)
+Collecting typing_extensions==4.16.0 (from -r /Users/jacobzzzzz/Desktop/ESE5420 SDS/Final Project/requirements-lock.txt (line 45))
+  Obtaining dependency information for typing_extensions==4.16.0 from https://files.pythonhosted.org/packages/49/d3/b8441a820a491ddfc024b0b0cf0393375b75ea13866d9c66727e54c2fc80/typing_extensions-4.16.0-py3-none-any.whl.metadata
+  Downloading typing_extensions-4.16.0-py3-none-any.whl.metadata (3.3 kB)
+Collecting tzdata==2026.6 (from -r /Users/jacobzzzzz/Desktop/ESE5420 SDS/Final Project/requirements-lock.txt (line 46))
+  Obtaining dependency information for tzdata==2026.6 from https://files.pythonhosted.org/packages/0a/66/9a06c2227fedfd4919f0eaaa8b94377d9730882a7e4f95823c9a331ab5e1/tzdata-2026.6-py2.py3-none-any.whl.metadata
+  Downloading tzdata-2026.6-py2.py3-none-any.whl.metadata (1.4 kB)
+Collecting wcwidth==0.9.4 (from -r /Users/jacobzzzzz/Desktop/ESE5420 SDS/Final Project/requirements-lock.txt (line 47))
+  Obtaining dependency information for wcwidth==0.9.4 from https://files.pythonhosted.org/packages/04/e9/dfdca30ca36c472de3e260406dee29fc108499ec590c63b3fe279887ee9d/wcwidth-0.9.4-cp310-abi3-macosx_11_0_arm64.whl.metadata
+  Downloading wcwidth-0.9.4-cp310-abi3-macosx_11_0_arm64.whl.metadata (23 kB)
+Downloading appnope-1.0.0-py3-none-any.whl (4.2 kB)
+Downloading asttokens-3.0.2-py3-none-any.whl (28 kB)
+Downloading attrs-26.1.0-py3-none-any.whl (67 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 67.5/67.5 kB 312.7 MB/s eta 0:00:00
+Downloading certifi-2026.10.23-py3-none-any.whl (135 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 135.1/135.1 kB 17.9 MB/s eta 0:00:00
+Downloading cloudpickle-3.1.2-py3-none-any.whl (22 kB)
+Downloading comm-0.2.3-py3-none-any.whl (7.3 kB)
+Downloading debugpy-1.8.22-cp312-cp312-macosx_15_0_universal2.whl (2.5 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 2.5/2.5 MB 48.3 MB/s eta 0:00:00
+Downloading executing-2.3.0-py3-none-any.whl (29 kB)
+Downloading fastjsonschema-2.22.3-py3-none-any.whl (28 kB)
+Downloading ipykernel-7.4.0-py3-none-any.whl (123 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 123.2/123.2 kB 508.1 MB/s eta 0:00:00
+Downloading ipython-9.18.1-py3-none-any.whl (649 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 649.8/649.8 kB 125.0 MB/s eta 0:00:00
+Downloading ipython_pygments_lexers-1.1.1-py3-none-any.whl (8.1 kB)
+Downloading jedi-0.20.1-py2.py3-none-any.whl (4.9 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 4.9/4.9 MB 73.0 MB/s eta 0:00:00
+Downloading joblib-1.6.0-py3-none-any.whl (306 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 306.1/306.1 kB 64.1 MB/s eta 0:00:00
+Downloading jsonschema-4.26.0-py3-none-any.whl (90 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 90.6/90.6 kB 302.3 MB/s eta 0:00:00
+Downloading jsonschema_specifications-2025.9.1-py3-none-any.whl (18 kB)
+Downloading jupyter_client-8.10.0-py3-none-any.whl (110 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 110.2/110.2 kB 308.6 MB/s eta 0:00:00
+Downloading jupyter_core-5.9.1-py3-none-any.whl (29 kB)
+Downloading matplotlib_inline-0.2.2-py3-none-any.whl (9.5 kB)
+Downloading narwhals-2.28.0-py3-none-any.whl (490 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 490.6/490.6 kB 294.4 MB/s eta 0:00:00
+Downloading nbclient-0.11.0-py3-none-any.whl (25 kB)
+Downloading nbformat-5.11.1-py3-none-any.whl (79 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 79.8/79.8 kB 379.3 MB/s eta 0:00:00
+Downloading nest_asyncio2-1.7.4-py3-none-any.whl (8.5 kB)
+Downloading numpy-2.5.4-cp312-cp312-macosx_14_0_arm64.whl (5.5 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 5.5/5.5 MB 89.7 MB/s eta 0:00:00
+Downloading packaging-26.3-py3-none-any.whl (129 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 130.0/130.0 kB 257.7 MB/s eta 0:00:00
+Downloading pandas-3.1.1-cp312-cp312-macosx_11_0_arm64.whl (11.2 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 11.2/11.2 MB 61.6 MB/s eta 0:00:00
+Downloading parso-0.8.7-py2.py3-none-any.whl (107 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 107.0/107.0 kB 390.0 MB/s eta 0:00:00
+Downloading pexpect-4.9.0-py2.py3-none-any.whl (63 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 63.8/63.8 kB 310.6 MB/s eta 0:00:00
+Downloading platformdirs-4.14.5-py3-none-any.whl (35 kB)
+Downloading prompt_toolkit-3.0.53-py3-none-any.whl (392 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 392.3/392.3 kB 3.9 MB/s eta 0:00:00
+Downloading psutil-7.2.2-cp36-abi3-macosx_11_0_arm64.whl (129 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 129.9/129.9 kB 149.3 MB/s eta 0:00:00
+Downloading ptyprocess-0.7.0-py2.py3-none-any.whl (13 kB)
+Downloading pure_eval-0.2.4-py3-none-any.whl (11 kB)
+Downloading pygments-2.21.0-py3-none-any.whl (1.3 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.3/1.3 MB 59.8 MB/s eta 0:00:00
+Downloading python_dateutil-4.0.0-py3-none-any.whl (92 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 92.9/92.9 kB 373.9 MB/s eta 0:00:00
+Downloading pyzmq-27.3.0-cp312-abi3-macosx_10_15_universal2.whl (1.2 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.2/1.2 MB 148.7 MB/s eta 0:00:00
+Downloading referencing-0.37.0-py3-none-any.whl (26 kB)
+Downloading rpds_py-2026.9.1-cp312-cp312-macosx_11_0_arm64.whl (341 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 341.4/341.4 kB 185.4 MB/s eta 0:00:00
+Downloading scikit_learn-1.9.1-cp312-cp312-macosx_12_0_arm64.whl (8.3 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 8.3/8.3 MB 57.2 MB/s eta 0:00:00
+Downloading scipy-1.18.1-cp312-cp312-macosx_14_0_arm64.whl (20.5 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 20.5/20.5 MB 64.1 MB/s eta 0:00:00
+Downloading stack_data-0.6.3-py3-none-any.whl (24 kB)
+Downloading threadpoolctl-3.8.0-py3-none-any.whl (32 kB)
+Downloading tornado-6.6-cp311-abi3-macosx_10_9_universal2.whl (528 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 528.3/528.3 kB 548.6 MB/s eta 0:00:00
+Downloading traitlets-5.16.1-py3-none-any.whl (86 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 86.2/86.2 kB 260.9 MB/s eta 0:00:00
+Downloading typing_extensions-4.16.0-py3-none-any.whl (45 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 45.6/45.6 kB 239.1 MB/s eta 0:00:00
+Downloading tzdata-2026.6-py2.py3-none-any.whl (348 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 348.2/348.2 kB 209.9 MB/s eta 0:00:00
+Downloading wcwidth-0.9.4-cp310-abi3-macosx_11_0_arm64.whl (618 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 618.9/618.9 kB 87.6 MB/s eta 0:00:00
+Installing collected packages: pure_eval, ptyprocess, wcwidth, tzdata, typing_extensions, traitlets, tornado, threadpoolctl, rpds-py, pyzmq, Pygments, psutil, platformdirs, pexpect, parso, packaging, numpy, nest-asyncio2, narwhals, fastjsonschema, executing, debugpy, comm, cloudpickle, certifi, attrs, asttokens, appnope, stack-data, scipy, referencing, python-dateutil, prompt_toolkit, matplotlib-inline, jupyter_core, joblib, jedi, ipython_pygments_lexers, scikit-learn, pandas, jupyter_client, jsonschema-specifications, ipython, jsonschema, ipykernel, nbformat, nbclient
+Successfully installed Pygments-2.21.0 appnope-1.0.0 asttokens-3.0.2 attrs-26.1.0 certifi-2026.10.23 cloudpickle-3.1.2 comm-0.2.3 debugpy-1.8.22 executing-2.3.0 fastjsonschema-2.22.3 ipykernel-7.4.0 ipython-9.18.1 ipython_pygments_lexers-1.1.1 jedi-0.20.1 joblib-1.6.0 jsonschema-4.26.0 jsonschema-specifications-2025.9.1 jupyter_client-8.10.0 jupyter_core-5.9.1 matplotlib-inline-0.2.2 narwhals-2.28.0 nbclient-0.11.0 nbformat-5.11.1 nest-asyncio2-1.7.4 numpy-2.5.4 packaging-26.3 pandas-3.1.1 parso-0.8.7 pexpect-4.9.0 platformdirs-4.14.5 prompt_toolkit-3.0.53 psutil-7.2.2 ptyprocess-0.7.0 pure_eval-0.2.4 python-dateutil-4.0.0 pyzmq-27.3.0 referencing-0.37.0 rpds-py-2026.9.1 scikit-learn-1.9.1 scipy-1.18.1 stack-data-0.6.3 threadpoolctl-3.8.0 tornado-6.6 traitlets-5.16.1 typing_extensions-4.16.0 tzdata-2026.6 wcwidth-0.9.4
+
+[notice] A new release of pip is available: 23.2.1 -> 26.3
+[notice] To update, run: /Users/jacobzzzzz/Desktop/ESE5420 SDS/Final Project/.venv/bin/python -m pip install --upgrade pip

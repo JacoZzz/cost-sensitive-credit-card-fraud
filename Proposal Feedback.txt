@@ -1,0 +1,13 @@
+Proposal feedback: Which method best handles rare credit-card fraud?\
+\
+Overall: Go, with the changes below. You picked the right metric family and keep resampling inside the folds; the comparison needs one yardstick that can see a threshold move.\
+
+Question: Sharpen to: "At a stated cost ratio, which repair (undersampling, oversampling, class weights or a moved threshold) gives logistic regression the lowest expected cost, and does any of them change its average precision?"\
+Check against: A stratified 20% test set (about 98 frauds), touched once. Decide what to do with Time, which runs over the collection period: drop it, or split in time order.\
+Baseline: Yes: unweighted logistic regression with the penalty chosen by stratified 5-fold CV over a log grid, scaling inside the folds.\
+Error bars: AP and the PR curve do not change when you move the threshold, and class weights mostly shift a logistic model's intercept, so AP alone may not separate your methods; expected cost at a fixed cost ratio can. Make the key figure expected cost against the cost ratio, one curve per method. With about 98 test frauds, recall carries a standard error near 0.04 to 0.05, so use paired bootstrap intervals for differences.\
+\
+First steps for the baseline checkpoint (Monday 9 November):\
+1. Fix the stratified test split and state one cost ratio (for example, c_FN/c_FP = 50).\
+2. Fit the unweighted baseline with stratified 5-fold CV and report CV AP and expected cost at the cost-optimal threshold, with the fold spread.\
+3. Add class weights and check whether AP moves at all.}

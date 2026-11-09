@@ -1,0 +1,9 @@
+# Direct dependencies; exact installed versions are in requirements-lock.txt.
+certifi
+numpy
+pandas
+scipy
+scikit-learn
+nbformat
+nbclient
+ipykernel

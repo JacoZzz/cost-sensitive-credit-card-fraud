@@ -1,0 +1,21 @@
+{
+  "method": "paired_stratified_percentile_bootstrap_of_fixed_outer_oof_predictions",
+  "n_resamples": 5000,
+  "random_seed": 42,
+  "confidence_level": 0.95,
+  "strata": ["outer_fold", "y_true"],
+  "resampling_unit": "transaction_within_each_fold_and_class",
+  "pairing": "same_resampled_rows_for_default_and_cost_tuned_decisions",
+  "statistic": "arithmetic_mean_of_five_outer_fold_metrics",
+  "quantile_method": "linear",
+  "refit_models": false,
+  "retune_parameters_or_thresholds": false,
+  "sealed_test_accessed": false,
+  "interpretation": "conditional_on_fitted_outer_models_thresholds_fold_assignments_and_observed_class_counts",
+  "limitations": [
+    "does_not_estimate_training_or_model_selection_variation",
+    "does_not_resample_class_prevalence",
+    "does_not_correct_cross_fold_training_dependence",
+    "assumes_exchangeable_transactions_within_each_stratum"
+  ]
+}

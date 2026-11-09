@@ -1,0 +1,54 @@
+Which Method Best Handles Rare Fraud Cases?
+
+## Group
+Zhihao 
+Jacob
+
+## Topic
+21 — A Rare Positive Class
+
+## Question
+When detecting rare credit-card fraud, which approach performs best: resampling, class weighting, or adjusting the classification threshold?
+
+## Why it matters
+Fraud detection is a challenging classification problem because fraudulent transactions are extremely rare. A model can achieve high accuracy while failing to identify most fraudulent transactions. Understanding which method improves fraud detection can help financial institutions reduce missed fraud cases while controlling false alarms.
+
+## Data
+We will use the publicly available Credit Card Fraud Detection dataset from OpenML:
+https://www.openml.org/search?type=data&id=1597&sort=runs&status=active
+The dataset contains 284,807 transactions, 30 input features, and 492 fraud cases (0.172%).
+
+## Baseline
+Our baseline will be logistic regression without any class-imbalance correction.
+We will standardize numerical features using training data only and tune the regularization parameter using stratified 5-fold cross-validation.
+
+## Comparison
+We will compare the baseline with three approaches:
+1. Random undersampling and oversampling of the training data.
+2. Class-weighted logistic regression.
+3. Classification threshold adjustment.
+We will also evaluate gradient boosting with and without class-imbalance correction.
+
+## Evaluation
+We will use stratified cross-validation to preserve the class distribution.
+Our primary evaluation metric will be Average Precision (AP), since fraud cases are rare. We will also report precision, recall, F1-score, and expected misclassification cost under a specified false-positive to false-negative cost ratio.
+We will estimate uncertainty using bootstrap confidence intervals and reserve an independent test set for final evaluation.
+All preprocessing and resampling will be performed within the training folds to prevent data leakage.
+
+## Key figure
+Our main figure will compare Precision-Recall curves across different imbalance-handling methods.
+The x-axis will represent Recall, and the y-axis will represent Precision.
+Each curve will represent one method, allowing us to compare how effectively each approach identifies fraudulent transactions while limiting false positives.
+
+## Risks and fallback
+The main risk is that the extreme class imbalance may produce unstable estimates of model performance.
+If gradient boosting or multiple resampling methods require too much computation, we will focus on logistic regression and compare class weighting, undersampling, and threshold adjustment.
+
+## Who does what
+Jacob: Data preparation, exploratory data analysis, logistic regression baseline, class weighting, statistical analysis, interpretation of results, paper writing, and final presentation.
+
+Zhihao: Resampling methods, threshold optimization, gradient boosting, model evaluation, visualization, statistical analysis, interpretation of results, paper writing, and final presentation.
+
+
+## AI plan
+We plan to use ChatGPT to assist with Python debugging, experimental design, visualization, and improving the clarity of our writing.

@@ -1,0 +1,11 @@
+WARNING: The directory '/Users/jacobzzzzz/Library/Caches/pip' or its parent directory is not owned or is not writable by the current user. The cache has been disabled. Check the permissions and owner of that directory. If executing pip with sudo, you should use sudo's -H flag.
+Collecting certifi
+  Obtaining dependency information for certifi from https://files.pythonhosted.org/packages/32/d1/a3652fe2c19134d0d15922177821d863cbd7e842d53a21bbe7e8e3a1b5ac/certifi-2026.10.23-py3-none-any.whl.metadata
+  Downloading certifi-2026.10.23-py3-none-any.whl.metadata (2.5 kB)
+Downloading certifi-2026.10.23-py3-none-any.whl (135 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 135.1/135.1 kB 7.2 MB/s eta 0:00:00
+Installing collected packages: certifi
+Successfully installed certifi-2026.10.23
+
+[notice] A new release of pip is available: 23.2.1 -> 26.3
+[notice] To update, run: /Users/jacobzzzzz/Documents/Codex/2026-11-09/users-jacobzzzzz-documents-codex-2026-11-2/.venv/bin/python -m pip install --upgrade pip

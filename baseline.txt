@@ -1,0 +1,27 @@
+# Cost-Sensitive Credit Card Fraud Detection
+
+## Group
+Open Team 6; Jacob, Zhihao.
+
+## Changes since the proposal
+Following feedback, we prioritize expected cost at a predeclared false-negative/false-positive cost ratio of 50, while retaining Average Precision (AP). We dropped Time, fixed a stratified test split, and added an independently tuned class-weight comparison. Cost versus cost ratio will replace PR curves as the main comparison figure.
+
+## Data
+We loaded OpenML 1597: 284,807 transactions, 30 inputs, and binary output Class (492 frauds). After dropping Time, we retained 29 inputs. We removed 9,144 repeated input vectors, keeping the first source row to prevent identical inputs crossing splits; 275,663 transactions remained. No missing or infinite values were found.
+
+## Split
+We reserved a stratified 20% test set (55,133 records) for final evaluation. On the remaining 220,530 records, outer stratified five-fold CV evaluates performance; inner stratified five-fold CV selects C and the cost threshold. Both shuffle with seed 42. Scaling is fitted within every training fold. Test data remain excluded from model fitting, tuning, and scoring.
+
+## Baseline
+Unweighted L2 logistic regression with StandardScaler; C in {0.001, 0.01, 0.1, 1, 10, 100}, selected by inner mean AP. Full-development CV selected C=1 and an inner-OOF cost threshold of 0.01455. Outer folds make their own independent selections. The balanced-class-weight control uses identical folds and grid; its full-development selection is C=100.
+
+## Result
+Mean outer-fold AP was 0.7417 (conditional 95% bootstrap interval [0.6968, 0.7895]). Mean cost per transaction was 0.03869 at threshold 0.5 and 0.01511 after inner-fold threshold selection (intervals [0.03440, 0.04302] and [0.01203, 0.01829]). We used 5,000 paired, fold-and-class-stratified bootstrap resamples, seed 42, averaging metrics across folds. Intervals hold fitted models and thresholds fixed; they omit refitting variability and cross-fold training dependence. Class weighting produced AP=0.7130 and tuned cost=0.01518. Its paired AP difference was -0.02868 (interval [-0.04560, -0.01082]); the tuned-cost difference interval [-0.000839, 0.001002] included zero.
+
+## Issues found
+Deduplication changes transaction frequencies. Random splitting does not establish future-time performance. C selections vary across folds. Class weighting did not improve AP in this run; moving a threshold leaves AP unchanged.
+
+## Next steps
+Before Monday 16 November, Jacob will assess cost sensitivity and interpret the baseline/class-weight comparison. Zhihao will implement fold-contained resampling, extend threshold comparisons, and evaluate gradient boosting. Both will prepare the draft and paired method comparisons without opening the final test set.
+
+## Code

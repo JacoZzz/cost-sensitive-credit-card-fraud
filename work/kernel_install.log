@@ -1,0 +1,3 @@
+/Users/jacobzzzzz/Desktop/ESE5420 SDS/Final Project/.venv/lib/python3.12/site-packages/IPython/paths.py:60: UserWarning: IPython dir '/Users/jacobzzzzz/.ipython' is not a writable location, using a temp directory.
+  warn("IPython dir '{}' is not a writable location,"
+Installed kernelspec fraud-project in /Users/jacobzzzzz/Desktop/ESE5420 SDS/Final Project/.venv/share/jupyter/kernels/fraud-project

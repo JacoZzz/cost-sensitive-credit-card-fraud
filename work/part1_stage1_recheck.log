@@ -1,0 +1,47 @@
+{
+  "status": "SUCCESS",
+  "python_executable": "/Users/jacobzzzzz/Desktop/ESE5420 SDS/Final Project/.venv/bin/python",
+  "checks": [
+    "expected raw dimensions and labels",
+    "no missing or infinite values",
+    "saved row IDs and class counts",
+    "all raw IDs accounted for exactly once",
+    "29 inputs plus Class; Time removed",
+    "no duplicate retained inputs",
+    "reproducible stratified 80/20 split",
+    "five stratified development folds",
+    "unfitted scaler and model",
+    "notebook executed without errors"
+  ],
+  "development_cv_folds": [
+    {
+      "train_rows": 176424,
+      "validation_rows": 44106,
+      "validation_frauds": 75
+    },
+    {
+      "train_rows": 176424,
+      "validation_rows": 44106,
+      "validation_frauds": 75
+    },
+    {
+      "train_rows": 176424,
+      "validation_rows": 44106,
+      "validation_frauds": 76
+    },
+    {
+      "train_rows": 176424,
+      "validation_rows": 44106,
+      "validation_frauds": 76
+    },
+    {
+      "train_rows": 176424,
+      "validation_rows": 44106,
+      "validation_frauds": 76
+    }
+  ],
+  "preserved_files_sha256": {
+    "proposal.txt": "24dd8a6d926ad0871f4a93cc480a2dc65dd817aca9f2bb0404a3fa405e0bc730",
+    "Proposal Feedback.rtf": "caf685360d465e6410c0fe8ed4dc72a1e6cbe09b3e2c0db1f7f8ef2de08970bb"
+  }
+}
